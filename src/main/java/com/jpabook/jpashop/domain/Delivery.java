@@ -3,8 +3,12 @@ package com.jpabook.jpashop.domain;
 import com.jpabook.jpashop.util.Address;
 import com.jpabook.jpashop.util.DeliveryStatus;
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
+@Getter
+@Setter
 public class Delivery {
 
     @Id
